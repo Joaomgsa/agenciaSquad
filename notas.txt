@@ -1,0 +1,41 @@
+Agencia squad.
+
+Não fazer no modo go horse.
+
+Tirar as ideias do mundo da minha imaginação
+
+Fazer com qualidade que pode atrair quem paga mais e quem paga menos ter uma versão cara de framework.
+
+Aqui não será uma SPA. fazer usando ferramenta mais simples. 
+
+pode ser um bootstrap + js em alguns elementos.
+
+
+Sair da tara de ir direto para o código, me organizar primeiro.
+
+Não me sabotar e me super estimar fazer algo pé no chão
+
+Home 
+Agencia
+portifolio
+o que fazemos
+contato
+
+Qual vai ser o publico.
+
+Fazer com qualidade que pode atrair quem paga mais e quem paga menos ter uma versão cara de framework.
+
+
+Home 
+Menu
+barra superior
+banner
+Conteudo
+portifolio
+fale conosco
+
+
+Sites profissionais
+
+
+001900000902803164017396892706661000000
