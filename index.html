@@ -11,19 +11,27 @@
 </head>
   <body>
     <div class="">
-        <nav class="fixed-top bg-white">
-            <div class="container">
-                        <header class="d-flex flexwrap justify-content-center py-3 mb-4 ">
-                            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                                <img src="/img/logo/logosquad.png" alt="Logo" width="157" height="62" class="bi me-2">
-                            </a>
-                            <ul class="nav nav-pills">
-                                <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
-                                <li class="nav-item"><a href="#agencia" class="nav-link">Agencia</a></li>
-                                <li class="nav-item"><a href="#portifolio" class="nav-link">Portifolio</a></li>
-                                <li class="nav-item"><a href="#oquefazemos" class="nav-link">O que Fazemos</a></li>
-                                <li class="nav-item"><a href="#faleconosco" class="nav-link">Contato</a></li>
-                            </ul>
+        <nav class="navbar navbar-expand-lg fixed-top bg-white">
+            <div class="container-fluid">
+                        <header class="py-2 mb-0 container">
+                            <div class="d-flex flexwrap">
+                                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                                    <img src="/img/logo/logosquad.png" alt="Logo" width="157" height="62" class="bi me-2">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                    <div class="collapse navbar-collapse" id="navbarTogglerDemo0">    
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                                            <li class="nav-item"><a href="#" class="nav-link text-primary" aria-current="page">Home</a></li>
+                                            <li class="nav-item"><a href="#agencia" class="nav-link text-primary">Agencia</a></li>
+                                            <li class="nav-item"><a href="#portifolio" class="nav-link text-primary">Portifolio</a></li>
+                                            <li class="nav-item"><a href="#oquefazemos" class="nav-link text-primary">O que Fazemos</a></li>
+                                            <li class="nav-item"><a href="#faleconosco" class="nav-link text-primary">Contato</a></li>      
+                                        </ul>
+                                        <a class="btn btn-primary" href="#faleconosco">Quero um orçamento</a>
+                                    </div>
+                            </div>        
                         </header>
             </div>
         </nav>
@@ -45,61 +53,68 @@
             </div>
         </section>
         <section>
-            <div class="container">
-                <h2 class="pb-2">Como ter um site?</h2>
-                
+            <div class="container-fluid bg-light">
+                <div class="container py-5 text-center">
+                    <h2 class="pb-2">Como ter o seu site?</h2>
+                    <div class="container">
+                        <div class="row align-items-center">
+                        <div class="col">
+                            <div class="" style="width: 18rem;">
+                                <img src="/img/como/escolha.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-text">Site personalizado ou site sob medida</h5>
+                                <p>Qual site é o ideal para você?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="" style="width: 18rem;">
+                                <img src="/img/como/ferramenta.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Escolha Ferramentas adicionais para seu site</h5>
+                                    <p>Blog, Idiomas, Contato via whatsapp e muito mais</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="" style="width: 18rem;">
+                                <img src="/img/como/decola.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Agora com tudo pronto vamos decolar!</h5>
+                                    <p>Fique tranquilo para se dedicar ao seu negócio</p>  
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="portifolio">
-            <div class="album py-5 bg-light">
-                <div class="container">
+            <div class="album py-5 bg-white">
+                <div class="container text-center">
                 <h2 class="pb-2">Nosso portifolio</h2>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            
+                        <img src="/img/exemplos/bootstrap-themes.png" class="bd-placeholder-img card-img-top" width="100%" height="225" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Matos Advogados</title><rect width="100%" height="100%" fill="#55595c"/>
                         <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-muted">9 mins</small>
+                        <h5 class="card-text">Matos Advogados</h5>
                         </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card shadow-sm"> 
+                        <img src="/img/exemplos/bootstrap-themes.png" class="bd-placeholder-img card-img-top" width="100%" height="225" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Agil Contabilidade</title><rect width="100%" height="100%" fill="#55595c"/>
+                        <div class="card-body">
+                        <h5 class="card-text">Agil Contabilidade</h5>
                         </div>
                     </div>
                     </div>
                     <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            
-                        <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-muted">9 mins</small>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            
-                        <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                            </div>
-                            <small class="text-muted">9 mins</small>
-                        </div>
+                        <img src="/img/exemplos/bootstrap-themes.png" class="bd-placeholder-img card-img-top" width="100%" height="225" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Agil Contabilidade</title><rect width="100%" height="100%" fill="#55595c"/><div class="card-body">
+                        <h5 class="card-text">Clinica Ortodente</h5>
                         </div>
                     </div>
                     </div>
@@ -108,66 +123,67 @@
             </div>
         </section>
         <section id="oquefazemos">
-            <div class="container px-4 py-5" id="icon-grid">
-                <h2 class="pb-2">O que fazemos para você</h2>
-            
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Sites otimizados para o google</h3>
-                    <p>Transforme todos os seus visitantes do seu site em clientes com os sites otimizados com os melhores critérios para sua empresa aparecer no topo do google. </p>
+            <div class="container-fluid bg-light">
+                <div class="container px-4 py-5 text-center" id="icon-grid">
+                    <h2 class="pb-2">O que fazemos para você</h2>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Sites otimizados para o google</h3>
+                        <p>Transforme todos os seus visitantes do seu site em clientes com os sites otimizados com os melhores critérios para sua empresa aparecer no topo do google. </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Tecnologias de Ponta</h3>
-                    <p>Ferramentas como Wordpress e armazenamento em nuvem são o mais avançado para ter em seu site.</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Tecnologias de Ponta</h3>
+                        <p>Ferramentas como Wordpress e armazenamento em nuvem são o mais avançado para ter em seu site.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Sites Responsivos</h3>
-                    <p>Um site responsivo é aquele projetado para se adaptar a qualquer tipo de tela celular, notebook ou tablet.</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Sites Responsivos</h3>
+                        <p>Um site responsivo é aquele projetado para se adaptar a qualquer tipo de tela celular, notebook ou tablet.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Facil gerenciamento</h3>
-                    <p>Tenha um painel de controle de administração fácil para atualizar o conteudo do seu site</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Facil gerenciamento</h3>
+                        <p>Tenha um painel de controle de administração fácil para atualizar o conteudo do seu site</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Ferramentas de venda</h3>
-                    <p>Vode poderá ter em seu site ferramentas para integrar desde a comunicação com o cliente a meios de pagamentos e redes sociais</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Ferramentas de venda</h3>
+                        <p>Vode poderá ter em seu site ferramentas para integrar desde a comunicação com o cliente a meios de pagamentos e redes sociais</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Personalização completa</h3>
-                    <p>Os Sites serão desenvolvidos de uma forma única assim como a identidade da sua empresa.</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Personalização completa</h3>
+                        <p>Os Sites serão desenvolvidos de uma forma única assim como a identidade da sua empresa.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Suporte contínuo</h3>
-                    <p>Você pode escolher ter a ferramenta de continuidade de manutenção e atualização do site e com isso nossa equipe te deixa livre para cuidar do seu negócio</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Suporte contínuo</h3>
+                        <p>Você pode escolher ter a ferramenta de continuidade de manutenção e atualização do site e com isso nossa equipe te deixa livre para cuidar do seu negócio</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
-                    <div>
-                    <h3 class="fw-bold mb-0 fs-4">Integração de ferramentas</h3>
-                    <p>Não se preocupe em ter que fazer a integração das ferramentas que você usa no seu dia.</p>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
+                        <div>
+                        <h3 class="fw-bold mb-0 fs-4">Integração de ferramentas</h3>
+                        <p>Não se preocupe em ter que fazer a integração das ferramentas que você usa no seu dia.</p>
+                        </div>
                     </div>
-                </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -214,7 +230,8 @@
             </ul>
             </footer>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </div>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>window.rwbp={email:'joaomgsa@gmail.com',phone:'+5521985800537',message:'Olá gostaria de criar meu site',lang:'pt-BR'}</script><script defer async src='https://duz4dqsaqembt.cloudfront.net/client/whats.js'></script>  
 </body>
 </html>
